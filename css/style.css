@@ -1,0 +1,75 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body{
+   background: rgb(190, 190, 190);
+}
+   
+.keyboard{
+   width: 1000px;
+   margin: auto;
+}
+
+#display{
+   width: 100%;
+   height: 300px;
+   margin: 150px 0 8px 0 ;
+   padding: 20px 10px;
+   background: white;
+   border-radius: 10px;
+   border: none;
+}
+
+.keyboard-line{
+   display: flex;
+   justify-content: space-between;  
+   margin-bottom: 8px;
+   font-weight: bold;
+}
+
+.elem{
+   width: 60px;
+   height: 60px;
+   font-weight: bold;
+   background: white;
+   border-radius: 10px;
+   border: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.active{
+   background: gray;
+   color: white;
+}
+
+#Backspace,
+#Tab{
+   width: 120px;
+}
+
+#CapsLock{
+   width: 150px;
+}
+#Enter{
+   width: 95px;
+}
+
+#ShiftLeft{
+   width: 170px;
+}
+
+#ShiftRight{
+   width: 145px;   
+}
+
+#Space{
+   width: 100%;
+   height: 60px;
+   margin: 0;
+   border-radius: 10px;
+}
